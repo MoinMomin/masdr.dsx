@@ -41,6 +41,7 @@ public class userController {
         } finally {
             // Clear the context after the request is complete
             TenantContext.clear();
+
         }
     }
 
